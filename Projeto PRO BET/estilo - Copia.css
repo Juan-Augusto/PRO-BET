@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face{
+		font-family: 'FonteLogo';
+		src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body { 
+		background-color: white;
+		color: rgba(0,0,0,1);
+}
+div#interface {
+		width: 1000px;
+		height: 900px;
+		background-color: #ffffff;
+		margin: -20px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 10px 10px 10px 10px;
+}
+	h1{
+		font-family: arial;
+		font-size: 30pt;
+		color: #606060;
+		text-shadow: 2px 2px 2px 2px black;
+	}
+	p {
+		text-align: justify;
+		text-indent: 50px;
+		font-family: arial;
+}
+header#cabecalho img#icone {
+	position: absolute;
+	height: 150px;
+	background: url("/_imagens/PRO-BET.PNG") no-repeat 0px 80px;
+	padding: 0px;
+	margin-top: -25px;	
+}
+header#cabecalho {
+		border-bottom: 1px #606060 solid;
+		height: 140px;
+		
+}
+header#cabecalho h1 {
+	position:absolute;
+	font-family: 'Titillium Web', sans-serif;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 50px;
+}
+header#cabecalho h2 {
+	position:absolute;
+	font-family: 'Titillium Web', sans-serif;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 80px;
+}
+
+	/*Formatação menu*/
+nav#menup {
+	display: block;
+}
+nav#menup ul{
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 23px;
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: 35px;
+		left: 415px;
+}
+nav#menup li {
+		display: inline-block;
+		list-style: none;
+		text-transform: uppercase;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+}
+nav#menup li:hover {
+		background-color: #606060;
+}
+nav#menup h1 {
+		display: none;
+}
+nav#menup a {
+		color: green;
+		text-decoration: none;
+}
+nav#menup a:hover {
+		color: white;
+		text-decoration: underline;
+		transition: background-color .5;
+}
+section#corpo {
+	display: block;
+	width: 520px;
+	float: left;
+	padding-right: 15px;
+}
+table#tabbrasil {
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+caption#titulot1 {
+	text-align: justify;
+	padding: 10px;
+	font-size: 13pt;
+}

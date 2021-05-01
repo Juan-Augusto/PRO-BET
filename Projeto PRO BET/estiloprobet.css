@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face{
+		font-family: 'FonteLogo';
+		src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+div#interface {
+		background-color: #ffffff;
+		margin: 0px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 0px 100px 1000px 100px;
+	
+}
+header#cabecalho img#icone {
+		width: 200px;
+		position: absolute;
+		top: 10px;
+		left: 30px;
+		margin: 0px;
+}
+header#legenda {
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 11px;
+		width: 500px;
+		position: absolute;
+		top: 100px;
+		left: 30px;
+		margin: 0px;
+		padding: auto;
+		border-bottom: 1px solid rgba(0,0,0,1); 
+}
+
+	
+	
+/*Formatação menu*/
+nav#menup {
+	position: absolute;
+	left: 500px;
+	display: block;
+	margin: auto;
+}
+nav#menup h1{
+	display: none;
+}
+nav#menup ul{
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 23px;
+		list-style: none;
+		text-transform: uppercase;
+}
+nav#menup li {
+		display: inline-block;
+		list-style: none;
+		text-transform: uppercase;
+		padding: 10px;
+		margin: 2px;
+		transition: background-color 1s;
+}
+nav#menup li:hover {
+		background-color: #606060;
+}
+nav#menup a {
+		color: green;
+		text-decoration: none;
+}
+nav#menup a:hover {
+		color: white;
+		text-decoration: underline;
+		transition: background-color .5;
+}
